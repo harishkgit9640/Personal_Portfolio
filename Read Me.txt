@@ -1,5 +1,5 @@
-Step 1.	-> Create Database `myportfolio`.
-Step 2. -> inport SQL file into Datebase.
+Step 1.	-> Create Database `myPortfolio`.
+Step 2. -> import SQL file into Database.
 Step 3. -> Open your Favourite Internet Browser and Type Localhost.
 Step 4. -> Click on "Personal_Portfolio_website_HTML_CSS_&_JAVASCRIPT".
 and Enjoy it.😋♥

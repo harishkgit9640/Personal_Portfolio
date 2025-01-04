@@ -6,9 +6,10 @@
     font-family: 'Poppins';
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
+
 .max-width {
     max-width: 1300px;
     padding: 0 80px;
@@ -43,15 +44,16 @@ html{
     font-weight: 800;
 }
 
-.navbar .logo a span{
+.navbar .logo a span {
     color: crimson;
     transition: all 0.3s ease;
 }
 
-.navbar.sticky .logo a span{
+.navbar.sticky .logo a span {
     color: #fff;
 }
-.navbar.sticky .menu li:hover a{
+
+.navbar.sticky .menu li:hover a {
     color: #222;
 }
 
@@ -60,7 +62,7 @@ html{
     display: inline-block;
 }
 
-.navbar .menu li a{
+.navbar .menu li a {
     display: block;
     color: #fff;
     font-size: 18px;
@@ -69,7 +71,7 @@ html{
     transition: color 0.3s ease;
 }
 
-.navbar .menu li a:hover{
+.navbar .menu li a:hover {
     color: crimson;
 }
 
@@ -81,7 +83,8 @@ html{
     cursor: pointer;
     display: none;
 }
-.scroll-up-btn{
+
+.scroll-up-btn {
     position: fixed;
     height: 45px;
     width: 45px;
@@ -99,14 +102,15 @@ html{
     bottom: 30px;
     transition: all 0.3s ease;
 }
-.scroll-up-btn:hover{
+
+.scroll-up-btn:hover {
     background-color: crimson;
     color: #fff;
-    
+
 }
 
 
-.scroll-up-btn.show{
+.scroll-up-btn.show {
     font-size: 30px;
     pointer-events: auto;
     opacity: 1;
@@ -195,7 +199,11 @@ section .title::after {
     background-color: #fff;
     transform: translateX(-50%);
 }
-section .about-content, .serv-content, .skill-content, .contact-content{
+
+section .about-content,
+.serv-content,
+.skill-content,
+.contact-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -225,6 +233,8 @@ section {
     height: 400px;
     width: 400px;
     object-fit: cover;
+    border: 3px solid #000;
+    box-shadow: -2px 2px 10px;
 }
 
 .about .column-right .text {
@@ -244,7 +254,8 @@ section {
     line-height: 1.5;
 }
 
-.about .column-right a, .skill-content a {
+.about .column-right a,
+.skill-content a {
 
     display: inline-block;
     color: #fff;
@@ -258,27 +269,33 @@ section {
     transition: all 0.3s ease;
 }
 
-.about .column-right a:hover, .skill-content a:hover {
+.about .column-right a:hover,
+.skill-content a:hover {
     color: crimson;
     background: none;
 }
 
 
-/* ========= sevices section styling ========== */
+/* ========= services section styling ========== */
 
-.services,.team{
+.services,
+.team {
     color: #fff;
     background-color: #111;
 }
-.services .title::before, .team .title::before{
+
+.services .title::before,
+.team .title::before {
     background-color: #fff;
 
 }
+
 .services .title::after {
     background-color: #111;
     content: "What I Provides";
 }
-.serv-content .card{
+
+.serv-content .card {
     width: calc(33% - 20px);
     background-color: #222;
     text-align: center;
@@ -287,26 +304,31 @@ section {
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.serv-content .card:hover{
+
+.serv-content .card:hover {
     background-color: crimson;
 }
 
-.serv-content .card .box{
+.serv-content .card .box {
     transition: all 0.3s ease;
 }
-.serv-content .card .box:hover{
+
+.serv-content .card .box:hover {
     transform: scale(1.05);
 }
-.serv-content .card:hover i{
+
+.serv-content .card:hover i {
     color: #fff;
 }
-.serv-content .card i{
+
+.serv-content .card i {
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 
 }
-.serv-content .card .text{
+
+.serv-content .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -317,37 +339,42 @@ section {
 .skill .title::after {
     content: "What I Have";
 }
-.skill-content .column{
+
+.skill-content .column {
     width: calc(50% - 30px);
-    
+
 }
-.skill-content .left .text{
+
+.skill-content .left .text {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 15px;
 }
-.skill-content .right .bars{
+
+.skill-content .right .bars {
     margin-bottom: 15px;
 }
-.skill-content .right .bars .info{
+
+.skill-content .right .bars .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5px;
 }
 
-.skill-content .right .bars .info span{
+.skill-content .right .bars .info span {
     font-weight: 500;
     font-size: 18px;
 }
-.skill-content .right .line{
+
+.skill-content .right .line {
     height: 5px;
     width: 100%;
     background-color: lightgray;
     position: relative;
 }
-    
-.skill-content .right .line::before{
+
+.skill-content .right .line::before {
     content: "";
     position: absolute;
     height: 100%;
@@ -357,26 +384,32 @@ section {
     background-color: crimson;
 }
 
-.skill-content .right .html::before{
+.skill-content .right .html::before {
     width: 90%;
 }
-.skill-content .right .css::before{
+
+.skill-content .right .css::before {
     width: 70%;
 }
-.skill-content .right .js::before{
+
+.skill-content .right .js::before {
     width: 65%;
 }
-.skill-content .right .php::before{
+
+.skill-content .right .php::before {
     width: 50%;
 }
-.skill-content .right .mysql::before{
+
+.skill-content .right .mysql::before {
     width: 60%;
 }
 
-.skill-content .left p{
+.skill-content .left p {
     text-align: justify;
 }
-.about .column-right a, .skill-content a {
+
+.about .column-right a,
+.skill-content a {
     font-size: 18px;
     padding: 8px 30px;
 }
@@ -388,6 +421,7 @@ section {
     background-color: #111;
     content: "Who With Me";
 }
+
 .team .carousel .card {
     background-color: #222;
     border-radius: 6px;
@@ -396,27 +430,30 @@ section {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.team .carousel .card:hover{
+
+.team .carousel .card:hover {
     background-color: crimson;
 }
-.team .carousel .card .box{
+
+.team .carousel .card .box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.team .carousel .card .box:hover{
+
+.team .carousel .card .box:hover {
     transform: scale(1.05);
 }
 
-.team .carousel .card .text{
+.team .carousel .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0px 7px 0px;
 }
 
-.team .carousel img{
+.team .carousel img {
     width: 280px;
     height: 280px;
     object-fit: cover;
@@ -424,14 +461,17 @@ section {
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.team .carousel .card:hover img{
+
+.team .carousel .card:hover img {
     border-color: #fff;
 }
-.owl-dots{
+
+.owl-dots {
     text-align: center;
     margin-top: 20px;
 }
-.owl-dot{
+
+.owl-dot {
     height: 13px;
     width: 13px;
     outline: none !important;
@@ -440,11 +480,14 @@ section {
     transition: all 0.3s ease;
     margin: 0 10px;
 }
-.owl-dot.active{
+
+.owl-dot.active {
     width: 35px;
     border-radius: 14px;
 }
-.owl-dot.active, .owl-dot:hover{
+
+.owl-dot.active,
+.owl-dot:hover {
     background-color: crimson !important;
 }
 
@@ -455,67 +498,80 @@ section {
     content: " Get in Touch";
 }
 
-.contact .contact-content .column{
+.contact .contact-content .column {
     width: calc(50% - 30px);
 }
-.contact .contact-content .text{
+
+.contact .contact-content .text {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.contact .contact-content .column p{
+
+.contact .contact-content .column p {
     text-align: justify;
 }
-.contact .contact-content .column .icons{
+
+.contact .contact-content .column .icons {
     margin: 10px 0;
 }
-.contact .contact-content .column .row{
+
+.contact .contact-content .column .row {
     display: flex;
     height: 65px;
     align-items: center;
 }
-.contact .contact-content .column .row .info{
+
+.contact .contact-content .column .row .info {
     margin-left: 30px;
-    
+
 }
-.contact .contact-content .row i{
+
+.contact .contact-content .row i {
     font-size: 25px;
     color: crimson;
 }
 
-.contact .row .social_links i{
+.contact .row .social_links i {
     margin-right: 25px;
     margin-left: 0;
 }
-.contact .contact-content .info .head{
+
+.contact .contact-content .info .head {
     font-weight: 600;
-    
+
 }
-.contact .contact-content .info .sub-title{
+
+.contact .contact-content .info .sub-title {
     color: #333;
 }
 
-.contact .right form .field{
+.contact .right form .field {
     display: flex;
 }
+
 .contact .right form .field,
-.contact .right form .field .field{
+.contact .right form .field .field {
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
 }
-.contact .right form .textarea{
+
+.contact .right form .textarea {
     height: 80px;
     width: 100%;
 }
 
-.contact .right form .name{
+.contact .right form .name {
     margin-right: 10px;
 }
-.contact .right form .email{
+
+.contact .right form .email {
     margin-left: 10px;
 }
-.contact .right form .field input, .contact .right form .textarea textarea{
+
+.contact .right form .field input,
+.contact .right form .textarea textarea {
     height: 100%;
     width: 100%;
     outline: none;
@@ -524,20 +580,24 @@ section {
     padding: 0 15px;
     font-size: 15px;
 }
-.contact .right form .field input:focus{
+
+.contact .right form .field input:focus {
     border: 1px solid crimson;
     color: crimson;
     font-weight: 500;
 }
-.contact .right form .textarea textarea{
+
+.contact .right form .textarea textarea {
     padding-top: 10px;
     resize: none;
 }
-.contact .right form .button{
+
+.contact .right form .button {
     height: 47px;
     width: 170px;
 }
-.right form .button button{
+
+.right form .button button {
     width: 100%;
     height: 100%;
     background: crimson;
@@ -549,7 +609,8 @@ section {
     font-weight: 500;
     cursor: pointer;
 }
-.right form .button button:hover{
+
+.right form .button button:hover {
     background: none;
     color: crimson;
 }
@@ -557,18 +618,20 @@ section {
 
 /* ========= footer section styling ========== */
 
-footer{
+footer {
     background: #111;
     color: #fff;
     padding: 20px 23px;
     text-align: center;
 }
-footer span a{
+
+footer span a {
     color: crimson;
     font-weight: 600;
     text-decoration: none;
 }
-footer span a:hover{
+
+footer span a:hover {
     color: crimson;
     text-decoration: underline;
 }
@@ -619,22 +682,24 @@ footer span a:hover{
         content: "\f00d";
     }
 
-    .navbar .menu.active{
+    .navbar .menu.active {
         left: 0%;
     }
 
-    .navbar .menu li{
+    .navbar .menu li {
         display: block;
     }
 
-    .navbar .menu li a{
+    .navbar .menu li a {
         margin: 20px 0;
         font-size: 25px;
         display: inline-block;
     }
-    .navbar .menu li:hover a{
+
+    .navbar .menu li:hover a {
         color: crimson !important;
     }
+
     .home .home-content .text-2 {
         font-size: 70px;
     }
@@ -652,11 +717,12 @@ footer span a:hover{
     .max-width {
         max-width: 800px;
     }
-   
-    .about .column-left{
+
+    .about .column-left {
         width: 100%;
     }
-    .about .column-right{
+
+    .about .column-right {
         width: 100%;
     }
 
@@ -665,20 +731,22 @@ footer span a:hover{
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .about .column-right{
+
+    .about .column-right {
         flex: 100%;
     }
 
-    .serv-content .card{
+    .serv-content .card {
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+
     .skill .skill-content .column,
-    .contact .contact-content .column{
+    .contact .contact-content .column {
         width: 100%;
         margin-bottom: 35px;
     }
-   
+
 }
 
 @media (max-width: 690px) {
@@ -699,11 +767,11 @@ footer span a:hover{
         font-size: 20px;
     }
 
-    .serv-content .card{
+    .serv-content .card {
         width: 100%;
         margin-bottom: 20px;
     }
-   
+
 }
 
 @media (max-width: 500px) {
@@ -716,6 +784,7 @@ footer span a:hover{
         font-size: 25px;
         margin: 5px 0;
     }
+
     .services .title::after {
         font-size: 16px;
     }
