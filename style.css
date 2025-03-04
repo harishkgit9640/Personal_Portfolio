@@ -16,6 +16,27 @@ html {
     margin: auto;
 }
 
+.btn {
+
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    background: crimson;
+    padding: 10px 30px;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: crimson 2px solid;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    color: crimson;
+    background: none;
+}
+
+
+
 /* ======= Navbar Styling ========= */
 
 
@@ -683,23 +704,6 @@ footer span a:hover {
     font-size: 1em;
     color: #555;
 }
-
-/* Button */
-.btn {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: white;
-    background-color: #007bff;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background-color: #0056b3;
-}
-
 
 /* Media query start */
 
