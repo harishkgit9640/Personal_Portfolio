@@ -1,9 +1,19 @@
+.regular-fonts {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Wallpoet", sans-serif;
+    font-family: "Charm", cursive;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+}
+
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -313,7 +323,7 @@ section {
 
 .Project .title::after {
     background-color: #111;
-    content: "What I Provides";
+    content: "What I Have Done";
 }
 
 .serv-content .card {
