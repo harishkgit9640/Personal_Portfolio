@@ -359,10 +359,17 @@ section {
 
 }
 
-.serv-content .card .text {
+.serv-content .project-title {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+
+.project-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0 7px 0;
+    color: crimson;
 }
 
 /* ========= Skills section styling ========== */
@@ -688,6 +695,7 @@ footer span a:hover {
 }
 
 .project-card {
+    text-align: center;
     background: #fff;
     width: 300px;
     padding: 20px;
