@@ -1,9 +1,3 @@
-
-// email credentials
-const SMTP_HOST = "smtp.gmail.com"
-const SMTP_MAIL = "harishstudio877@gmail.com"
-const SMTP_PASSWORD = "ihlhhewnvtvingmh"
-
 function sendEmail(event) {
     event.preventDefault();
     var user_input = $("#user_input").val();
