@@ -323,7 +323,7 @@ section {
 
 .Project .title::after {
     background-color: #111;
-    content: "What I Have Done";
+    content: "My Projects";
 }
 
 .serv-content .card {
